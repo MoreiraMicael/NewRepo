@@ -18,38 +18,56 @@ namespace WcfService3
 
         public object JsonConvert { get; private set; }
 
-        public double CalculadoraCalorias(int idade, string genero, double altura, double peso, string actividade)
+        public List<Calorias> CalculadoraCalorias(int idade, string genero, double altura, double peso, string actividade)//Return de todos os valores ?
         {
-
-            double sedent = 1.2;
-            double light = 1.375;
-            double moderate = 1.55;
-            double very = 1.725;
-            double extra = 1.9;
-
             int caloriasM = ((int)(10 * peso + 6.25 * altura - 5 * idade + 5));
-
             int caloriasF = ((int)(10 * peso + 6.25 * altura - 5 * idade - 161));
-
-            int caloriasZero = 0;
+            double caloriasBase = 0;
+            double actividadeValor = 0;
 
             if (genero == "Masculino")
             {
-                if (actividade == "Sedentario")
-                {
-                    double caloriasMasc = ((caloriasM * sedent));
-                    return caloriasMasc;
-                    //double menosMeio = ((caloriasM * sedent) - 500);
-                    //double menosUm = ((caloriasM * sedent) - 1000);
-                    //double maisMeio = ((caloriasM * sedent) + 500);
-                    //double maisUm = ((caloriasM * sedent) + 1000);
-                }
-                else
-                {
-                    return caloriasZero;
-                }
+                caloriasBase = caloriasM;
             }
-            return caloriasZero;
+            if (genero == "Feminino")
+            {
+                caloriasBase = caloriasF;
+            }
+
+            if (actividade == "Sedentario")
+            {
+                actividadeValor = 1.2;
+            }
+            if (actividade == "Leve")
+            {
+                actividadeValor = 1.375;
+            }
+            if (actividade == "Moderada")
+            {
+                actividadeValor = 1.55;
+            }
+            if (actividade == "Alta")
+            {
+                actividadeValor = 1.725;
+            }
+            if (actividade == "Extra")
+            {
+                actividadeValor = 1.9;
+            }
+
+            
+            double caloriasTotal = ((caloriasBase * actividadeValor));
+            //return caloriasTotal;
+            double menosMeio = (caloriasTotal - 500);
+            double menosUm = (caloriasTotal - 1000);
+            double maisMeio = (caloriasTotal + 500);
+            double maisUm = (caloriasTotal + 1000);
+
+            List<Calorias> calorias = new List<Calorias>();
+            calorias.Add(new Calorias() { caloriasTotal = caloriasTotal, menosMeio = menosMeio, menosUm = menosUm, maisMeio = maisMeio, maisUm = maisUm });
+
+            return calorias;
+           
         }
 
         public double CalculadoraPesoIdeal(string genero, int altura)
@@ -63,37 +81,39 @@ namespace WcfService3
                 double pesoIdealM = ((double)(52 + pesoExtra));
                 return pesoIdealM;
             }
-            else
+            if (genero == "Feminino")
             {
                 double pesoExtra = alturaExtra * 1.7;
                 double pesoIdealF = ((double)(49 + pesoExtra));
                 return pesoIdealF;
             }
+            else
+                throw new System.ArgumentException("Parametro Errado", "Genero: Masculino ou Feminino");
         }
 
         public List<Refeicao> GetRefeicoes()
         {
-                XmlDocument doc = new XmlDocument();
-                doc.Load(FILEPATH);
-                List<Refeicao> refeicoes = new List<Refeicao>();
-                XmlNodeList refeicaoNodes = doc.SelectNodes("/Refeicoes/Refeicao");
-                foreach (XmlNode refeicaoNode in refeicaoNodes)
-                {
-                    XmlNode restauranteNode = refeicaoNode.SelectSingleNode("Restaurante");
-                    XmlNode itemNode = refeicaoNode.SelectSingleNode("Item");
-                    XmlNode quantidadeNode = refeicaoNode.SelectSingleNode("Quantidade");
-                    XmlNode caloriasNode = refeicaoNode.SelectSingleNode("Calorias");
-                    
-                    Refeicao refeicao = new Refeicao(
-                    restauranteNode.InnerText,
-                    itemNode.InnerText,
-                    quantidadeNode.InnerText,
-                    caloriasNode.InnerText
-                    );
-                    refeicoes.Add(refeicao);
-                }
-                return refeicoes;
+            XmlDocument doc = new XmlDocument();
+            doc.Load(FILEPATH);
+            List<Refeicao> refeicoes = new List<Refeicao>();
+            XmlNodeList refeicaoNodes = doc.SelectNodes("/Refeicoes/Refeicao");
+            foreach (XmlNode refeicaoNode in refeicaoNodes)
+            {
+                XmlNode restauranteNode = refeicaoNode.SelectSingleNode("Restaurante");
+                XmlNode itemNode = refeicaoNode.SelectSingleNode("Item");
+                XmlNode quantidadeNode = refeicaoNode.SelectSingleNode("Quantidade");
+                XmlNode caloriasNode = refeicaoNode.SelectSingleNode("Calorias");
+
+                Refeicao refeicao = new Refeicao(
+                restauranteNode.InnerText,
+                itemNode.InnerText,
+                quantidadeNode.InnerText,
+                caloriasNode.InnerText
+                );
+                refeicoes.Add(refeicao);
             }
+            return refeicoes;
+        }
 
         public List<Refeicao> PostRefeicoes()
         {

@@ -28,7 +28,7 @@ namespace WcfService3
         double CalculadoraPesoIdeal(string genero, int altura);
 
         [OperationContract]
-        double CalculadoraCalorias(int idade, string genero, double altura, double peso, string actividade);
+        List<Calorias> CalculadoraCalorias(int idade, string genero, double altura, double peso, string actividade);
     }
 
     [DataContract]
@@ -60,13 +60,13 @@ namespace WcfService3
 
         public override string ToString()
         {
-            string Refeicao = string.Empty;
-            Refeicao += "Idade: " + Idade + Environment.NewLine;
-            Refeicao += "Item: " + Altura + Environment.NewLine;
-            Refeicao += "Quantidade: " + Peso + Environment.NewLine;
-            Refeicao += "Calorias: " + ActividadeFisica + Environment.NewLine;
-            Refeicao += "Calorias: " + Genero + Environment.NewLine;
-            return Refeicao;
+            string DadosPessoais = string.Empty;
+            DadosPessoais += "Idade: " + Idade + Environment.NewLine;
+            DadosPessoais += "Item: " + Altura + Environment.NewLine;
+            DadosPessoais += "Quantidade: " + Peso + Environment.NewLine;
+            DadosPessoais += "Calorias: " + ActividadeFisica + Environment.NewLine;
+            DadosPessoais += "Calorias: " + Genero + Environment.NewLine;
+            return DadosPessoais;
         }
     }
 
@@ -105,5 +105,44 @@ namespace WcfService3
         }
     }
 
-   
+    [DataContract]
+    public class Calorias
+    {
+        public Calorias()
+        {
+        }
+
+        public Calorias(double caloriasTotal, double menosMeio, double menosUm, double maisMeio, double maisUm)
+        {
+            this.caloriasTotal = caloriasTotal;
+            this.menosMeio = menosMeio;
+            this.menosUm = menosUm;
+            this.maisMeio = maisMeio;
+            this.maisUm = maisUm;
+        }
+
+        [DataMember]
+        public double caloriasTotal { get; set; }
+        [DataMember]
+        public double menosMeio { get; set; }
+        [DataMember]
+        public double menosUm { get; set; }
+        [DataMember]
+        public double maisMeio { get; set; }
+        [DataMember]
+        public double maisUm { get; set; }
+
+        public override string ToString()
+        {
+            string Calorias = string.Empty;
+            Calorias += "Calorias que deve Ingerir: " + caloriasTotal + Environment.NewLine;
+            Calorias += "Calorias para perder meio kilo: " + menosMeio + Environment.NewLine;
+            Calorias += "Calorias para perder um kilo: " + menosUm + Environment.NewLine;
+            Calorias += "Calorias para ganhar meio kilo: " + maisMeio + Environment.NewLine;
+            Calorias += "Calorias para ganhar um kilo: " + maisUm + Environment.NewLine;
+            return Calorias;
+        }
+    }
+
+
 }
