@@ -1,0 +1,606 @@
+<Refeicoes>
+  <Refeicao>
+    <Restaurante>
+h3</Restaurante>
+    <Item>Hamb�rguer bem Passado</Item>
+    <Quantidade>1 dose (200g)</Quantidade>
+    <Calorias>304 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+h3</Restaurante>
+    <Item>Limonada sem A��car</Item>
+    <Quantidade>1 dose</Quantidade>
+    <Calorias>10 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+h3</Restaurante>
+    <Item>H3 Arroz</Item>
+    <Quantidade>1/2 dose</Quantidade>
+    <Calorias>195 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+h3</Restaurante>
+    <Item>Batatas Fritas (1/2 dose)</Item>
+    <Quantidade>1/2 dose</Quantidade>
+    <Calorias>274 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+h3</Restaurante>
+    <Item>H3 Esparregado</Item>
+    <Quantidade>1 dose</Quantidade>
+    <Calorias>116 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+h3</Restaurante>
+    <Item>Hamb�rguer M�dio</Item>
+    <Quantidade>1 dose (200g)</Quantidade>
+    <Calorias>354 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+h3</Restaurante>
+    <Item>Batatas Fritas</Item>
+    <Quantidade>1 dose (75g)</Quantidade>
+    <Calorias>411 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+h3</Restaurante>
+    <Item>H3 Arroz (1/2 dose)</Item>
+    <Quantidade>1 dose</Quantidade>
+    <Calorias>390 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+h3</Restaurante>
+    <Item>Limonada de Morango sem A��car</Item>
+    <Quantidade>1 dose</Quantidade>
+    <Calorias>14 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+h3</Restaurante>
+    <Item>H3 Grelado</Item>
+    <Quantidade>1 hamb�rguer (200g)</Quantidade>
+    <Calorias>304 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+h3</Restaurante>
+    <Item>H3 Mediterr�neo</Item>
+    <Quantidade>1 hamb�rguer (180g)</Quantidade>
+    <Calorias>441 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+h3</Restaurante>
+    <Item>H3 Cheese</Item>
+    <Quantidade>1 hamb�rguer (180g)</Quantidade>
+    <Calorias>464 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+h3</Restaurante>
+    <Item>H3 Champignon</Item>
+    <Quantidade>1 hamb�rguer (200g)</Quantidade>
+    <Calorias>421 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+h3</Restaurante>
+    <Item>Tuga</Item>
+    <Quantidade>1 hamb�rguer (180g)</Quantidade>
+    <Calorias>424 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+h3</Restaurante>
+    <Item>H3 Benedict</Item>
+    <Quantidade>1 hamb�rguer (100g)</Quantidade>
+    <Calorias>553 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+h3</Restaurante>
+    <Item>H3 Tuga</Item>
+    <Quantidade>1 dose (180g)</Quantidade>
+    <Calorias>424 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+h3</Restaurante>
+    <Item>H3 Legumes</Item>
+    <Quantidade>1 hamb�rguer</Quantidade>
+    <Calorias>460 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+h3</Restaurante>
+    <Item>Super Bread</Item>
+    <Quantidade>1 hamb�rguer (380g)</Quantidade>
+    <Calorias>836 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+h3</Restaurante>
+    <Item>H3 Carbonara</Item>
+    <Quantidade>1 dose</Quantidade>
+    <Calorias>546 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+h3</Restaurante>
+    <Item>Vinagreta Dijon</Item>
+    <Quantidade>1 dose</Quantidade>
+    <Calorias>83 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+mcdonalds</Restaurante>
+    <Item>Batatas Fritas (M�dia)</Item>
+    <Quantidade>1 dose (100g)</Quantidade>
+    <Calorias>340 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+mcdonalds</Restaurante>
+    <Item>Big Mac</Item>
+    <Quantidade>1 dose</Quantidade>
+    <Calorias>510 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+mcdonalds</Restaurante>
+    <Item>Batatas Fritas (Pequena)</Item>
+    <Quantidade>1 dose</Quantidade>
+    <Calorias>240 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+mcdonalds</Restaurante>
+    <Item>Double Cheeseburguer</Item>
+    <Quantidade>1 dose</Quantidade>
+    <Calorias>448 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+mcdonalds</Restaurante>
+    <Item>Cheeseburger</Item>
+    <Quantidade>1 dose (120g)</Quantidade>
+    <Calorias>305 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+mcdonalds</Restaurante>
+    <Item>Chicken McNuggets (4)</Item>
+    <Quantidade>1 dose</Quantidade>
+    <Calorias>179 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+mcdonalds</Restaurante>
+    <Item>Batatas Fritas (Grande)</Item>
+    <Quantidade>1 dose</Quantidade>
+    <Calorias>448 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+mcdonalds</Restaurante>
+    <Item>McFlurry Snickers</Item>
+    <Quantidade>1 dose (187g)</Quantidade>
+    <Calorias>375 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+mcdonalds</Restaurante>
+    <Item>Big Tasty</Item>
+    <Quantidade>1 dose (345g)</Quantidade>
+    <Calorias>842 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+mcdonalds</Restaurante>
+    <Item>CBO</Item>
+    <Quantidade>1 dose (247g)</Quantidade>
+    <Calorias>665 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+mcdonalds</Restaurante>
+    <Item>Coca-Cola (M�dia)</Item>
+    <Quantidade>1 dose (400ml)</Quantidade>
+    <Calorias>176 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+mcdonalds</Restaurante>
+    <Item>Sopa de Gr�o com Espinafres</Item>
+    <Quantidade>1 dose (150ml)</Quantidade>
+    <Calorias>75 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+mcdonalds</Restaurante>
+    <Item>Sundae de Caramelo</Item>
+    <Quantidade>1 dose (184g)</Quantidade>
+    <Calorias>325 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+mcdonalds</Restaurante>
+    <Item>Ketchup para Batatas</Item>
+    <Quantidade>1 dose (12g)</Quantidade>
+    <Calorias>12 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+mcdonalds</Restaurante>
+    <Item>Wrap Ranch</Item>
+    <Quantidade>1 dose (119g)</Quantidade>
+    <Calorias>315 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+mcdonalds</Restaurante>
+    <Item>McChicken</Item>
+    <Quantidade>1 dose (184g)</Quantidade>
+    <Calorias>410 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+mcdonalds</Restaurante>
+    <Item>McFlurry Oreo</Item>
+    <Quantidade>1 dose (218g)</Quantidade>
+    <Calorias>345 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+mcdonalds</Restaurante>
+    <Item>Molho para Batatas</Item>
+    <Quantidade>1 dose (25ml)</Quantidade>
+    <Calorias>46 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+mcdonalds</Restaurante>
+    <Item>Coca-Cola Zero (Pequena)</Item>
+    <Quantidade>1 dose (250ml)</Quantidade>
+    <Calorias>1 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>
+mcdonalds</Restaurante>
+    <Item>Croissant Fiambre</Item>
+    <Quantidade>1 dose</Quantidade>
+    <Calorias>178 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>kfc</Restaurante>
+    <Item>Hot Wings</Item>
+    <Quantidade>2 hot wings (70g)</Quantidade>
+    <Calorias>188 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>kfc</Restaurante>
+    <Item>Brazer</Item>
+    <Quantidade>1 sanduíche (273g)</Quantidade>
+    <Calorias>526 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>kfc</Restaurante>
+    <Item>Tower</Item>
+    <Quantidade>1 dose (258g)</Quantidade>
+    <Calorias>639 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>kfc</Restaurante>
+    <Item>Twister</Item>
+    <Quantidade>1 dose (209g)</Quantidade>
+    <Calorias>510 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>kfc</Restaurante>
+    <Item>Daddy Burger</Item>
+    <Quantidade>1 unidade (273g)</Quantidade>
+    <Calorias>615 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>noori</Restaurante>
+    <Item>Box Salmão</Item>
+    <Quantidade>1 box (2 unidades)</Quantidade>
+    <Calorias>167 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>noori</Restaurante>
+    <Item>Spicy Tuna</Item>
+    <Quantidade>1 dose (150g)</Quantidade>
+    <Calorias>176 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>pans-amp-company</Restaurante>
+    <Item>Pasta de Atum</Item>
+    <Quantidade>1 sandes (260g)</Quantidade>
+    <Calorias>779 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>pans-amp-company</Restaurante>
+    <Item>Sandes Supremo de Frango</Item>
+    <Quantidade>1 sandes (247g)</Quantidade>
+    <Calorias>640 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>pans-amp-company</Restaurante>
+    <Item>Sandes Multicereais Queijo Fresco</Item>
+    <Quantidade>1 sandes (275g)</Quantidade>
+    <Calorias>375 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>pans-amp-company</Restaurante>
+    <Item>Frango</Item>
+    <Quantidade>1 baguette (223g)</Quantidade>
+    <Calorias>469 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>pans-amp-company</Restaurante>
+    <Item>Provençal</Item>
+    <Quantidade>1 sandes (233g)</Quantidade>
+    <Calorias>531 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>pizza-hut</Restaurante>
+    <Item>Cheeseham</Item>
+    <Quantidade>1 fatia (130g)</Quantidade>
+    <Calorias>342 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>pizza-hut</Restaurante>
+    <Item>Pão de Alho Supremo</Item>
+    <Quantidade>2 fatias (103g)</Quantidade>
+    <Calorias>310 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>pizza-hut</Restaurante>
+    <Item>Calzone Gamberi</Item>
+    <Quantidade>1 dose (444g)</Quantidade>
+    <Calorias>497 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>pizza-hut</Restaurante>
+    <Item>Mousse de Chocolate</Item>
+    <Quantidade>1 mousse (70g)</Quantidade>
+    <Calorias>286 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>starbucks</Restaurante>
+    <Item>Salada de Frutas</Item>
+    <Quantidade>100g</Quantidade>
+    <Calorias>53 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>starbucks</Restaurante>
+    <Item>Frappuccino de Caramelo (Tall)</Item>
+    <Quantidade>1 dose (354ml)</Quantidade>
+    <Calorias>250 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>starbucks</Restaurante>
+    <Item>Café Latte (Tall)</Item>
+    <Quantidade>1 dose (250ml)</Quantidade>
+    <Calorias>100 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>starbucks</Restaurante>
+    <Item>Caramel Macchiato (Grande)</Item>
+    <Quantidade>1 dose (473ml)</Quantidade>
+    <Calorias>239 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>starbucks</Restaurante>
+    <Item>Chocolate Mocha Flavour</Item>
+    <Quantidade>100ml</Quantidade>
+    <Calorias>63 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>starbucks</Restaurante>
+    <Item>Muffin de Mirtilos</Item>
+    <Quantidade>1 muffin (135g)</Quantidade>
+    <Calorias>470 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>starbucks</Restaurante>
+    <Item>Cinnamon Roll</Item>
+    <Quantidade>1 rolo (118g)</Quantidade>
+    <Calorias>420 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>starbucks</Restaurante>
+    <Item>Chocolate Chunk Cookie</Item>
+    <Quantidade>1 dose (84g)</Quantidade>
+    <Calorias>380 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>starbucks</Restaurante>
+    <Item>Seattle Latte</Item>
+    <Quantidade>100ml</Quantidade>
+    <Calorias>70 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>starbucks</Restaurante>
+    <Item>Vanilla Macchiato (Tall)</Item>
+    <Quantidade>1 dose (350ml)</Quantidade>
+    <Calorias>185 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>subway</Restaurante>
+    <Item>15 cm Frango Teriyaki</Item>
+    <Quantidade>1 dose (279g)</Quantidade>
+    <Calorias>384 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>subway</Restaurante>
+    <Item>15 cm Atum</Item>
+    <Quantidade>1 dose</Quantidade>
+    <Calorias>414 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>subway</Restaurante>
+    <Item>Cookie com Gotas de Chocolate</Item>
+    <Quantidade>1 dose (33g)</Quantidade>
+    <Calorias>210 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>subway</Restaurante>
+    <Item>15 cm Subway Melt</Item>
+    <Quantidade>1 dose (254g)</Quantidade>
+    <Calorias>380 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>subway</Restaurante>
+    <Item>15 cm Frango</Item>
+    <Quantidade>1 dose (241g)</Quantidade>
+    <Calorias>315 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>subway</Restaurante>
+    <Item>15 cm Peito de Peru</Item>
+    <Quantidade>1 dose</Quantidade>
+    <Calorias>307 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>subway</Restaurante>
+    <Item>15 cm BMT Italiano</Item>
+    <Quantidade>1 dose (242g)</Quantidade>
+    <Calorias>450 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>subway</Restaurante>
+    <Item>15cm Subway Club</Item>
+    <Quantidade>1 dose (275g)</Quantidade>
+    <Calorias>350 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>telepizza</Restaurante>
+    <Item>Pizza Carbonara</Item>
+    <Quantidade>1 fatia (76g)</Quantidade>
+    <Calorias>235 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>telepizza</Restaurante>
+    <Item>Pastel de Nata</Item>
+    <Quantidade>100g</Quantidade>
+    <Calorias>302 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>telepizza</Restaurante>
+    <Item>Pizza Funny Bacon</Item>
+    <Quantidade>1 fatia (75g)</Quantidade>
+    <Calorias>207 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>telepizza</Restaurante>
+    <Item>Pizza Especial da Casa</Item>
+    <Quantidade>1 fatia (76g)</Quantidade>
+    <Calorias>235 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>telepizza</Restaurante>
+    <Item>Pasta Carbonara</Item>
+    <Quantidade>100g</Quantidade>
+    <Calorias>205 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>telepizza</Restaurante>
+    <Item>Pizza Barbecue</Item>
+    <Quantidade>1 fatia (84g)</Quantidade>
+    <Calorias>240 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>telepizza</Restaurante>
+    <Item>Pizza Atlãntica</Item>
+    <Quantidade>1 fatia (71g)</Quantidade>
+    <Calorias>196 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>telepizza</Restaurante>
+    <Item>Pão de Alho Queijo</Item>
+    <Quantidade>2 unidades</Quantidade>
+    <Calorias>367 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>telepizza</Restaurante>
+    <Item>Pizza Cool Cheese</Item>
+    <Quantidade>1 fatia (76g)</Quantidade>
+    <Calorias>204 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>telepizza</Restaurante>
+    <Item>Pão de Alho com Queijo e Pepperoni</Item>
+    <Quantidade>2 unidades</Quantidade>
+    <Calorias>402 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>telepizza</Restaurante>
+    <Item>Pizza Burguer</Item>
+    <Quantidade>1 fatia (80g)</Quantidade>
+    <Calorias>192 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>telepizza</Restaurante>
+    <Item>Pão de Alho com Queijo e Azeitonas</Item>
+    <Quantidade>2 unidades</Quantidade>
+    <Calorias>353 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>telepizza</Restaurante>
+    <Item>Profiteroles</Item>
+    <Quantidade>100g</Quantidade>
+    <Calorias>381 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>telepizza</Restaurante>
+    <Item>Pizza Lasanha de Carne</Item>
+    <Quantidade>1 fatia (80g)</Quantidade>
+    <Calorias>226 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>telepizza</Restaurante>
+    <Item>Enrolado Barbecue</Item>
+    <Quantidade>1 dose (247g)</Quantidade>
+    <Calorias>538 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>telepizza</Restaurante>
+    <Item>Pizza Bacana</Item>
+    <Quantidade>100g</Quantidade>
+    <Calorias>270 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>telepizza</Restaurante>
+    <Item>Top Burguer Vaca</Item>
+    <Quantidade>100g</Quantidade>
+    <Calorias>236 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>telepizza</Restaurante>
+    <Item>Pizza Formaggio</Item>
+    <Quantidade>1 fatia (76g)</Quantidade>
+    <Calorias>237 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>telepizza</Restaurante>
+    <Item>Enrolado Carbonara</Item>
+    <Quantidade>1 dose (182g)</Quantidade>
+    <Calorias>490 kcal</Calorias>
+  </Refeicao>
+  <Refeicao>
+    <Restaurante>telepizza</Restaurante>
+    <Item>Telekebab</Item>
+    <Quantidade>100g</Quantidade>
+    <Calorias>225 kcal</Calorias>
+  </Refeicao>
+</Refeicoes>

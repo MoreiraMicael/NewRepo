@@ -1,0 +1,7 @@
+C:\Users\Moreira\source\repos\WcfService3\WcfService3\bin\WcfService3.dll.config
+C:\Users\Moreira\source\repos\WcfService3\WcfService3\bin\WcfService3.dll
+C:\Users\Moreira\source\repos\WcfService3\WcfService3\bin\WcfService3.pdb
+C:\Users\Moreira\source\repos\WcfService3\WcfService3\obj\Debug\WcfService3.csprojAssemblyReference.cache
+C:\Users\Moreira\source\repos\WcfService3\WcfService3\obj\Debug\WcfService3.csproj.CoreCompileInputs.cache
+C:\Users\Moreira\source\repos\WcfService3\WcfService3\obj\Debug\WcfService3.dll
+C:\Users\Moreira\source\repos\WcfService3\WcfService3\obj\Debug\WcfService3.pdb
