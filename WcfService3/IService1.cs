@@ -19,10 +19,10 @@ namespace WcfService3
         [Description("Gets all the Refeicoes.")]
         List<Refeicao> GetRefeicoes();
 
-        [OperationContract]
+        /*[OperationContract]
         [WebInvoke(Method = "GET", UriTemplate = "/Refeicoes")]
         [Description("Post a Refeicao in Refeicoes.")]
-        List<Refeicao> PostRefeicoes();
+        List<Refeicao> PostRefeicoes();*/
 
         [OperationContract]
         double CalculadoraPesoIdeal(string genero, int altura);
@@ -143,6 +143,4 @@ namespace WcfService3
             return Calorias;
         }
     }
-
-
 }

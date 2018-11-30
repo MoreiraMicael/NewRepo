@@ -1,10 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.ServiceModel;
-using System.ServiceModel.Web;
 using System.Text;
 using System.Web.Hosting;
 using System.Xml;
@@ -115,7 +111,7 @@ namespace WcfService3
             return refeicoes;
         }
 
-        public List<Refeicao> PostRefeicoes()
+        /*public List<Refeicao> PostRefeicoes()
         {
             {
                 //  string FILEPATH = Path.Combine(HttpContext.Current.Server.MapPath("/App_Data/calorias_restaurantes_1.txt"));
@@ -133,7 +129,7 @@ namespace WcfService3
                 XmlDocument xmldoc;
                 XmlElement Refeicoes;
                 XmlElement Refeicao;
-                XmlElement restaurante;
+                XmlElement Restaurante;
                 XmlElement Item;
                 XmlElement Quantidade;
                 XmlElement Calorias;
@@ -149,7 +145,7 @@ namespace WcfService3
                     Refeicao = xmldoc.CreateElement("Refeicao");
                     restaurante = xmldoc.CreateElement("Restaurante");
                     restaurante.InnerText = campos[0];
-                    Refeicao.AppendChild(restaurante);
+                    Refeicao.AppendChild(Restaurante);
                     Item = xmldoc.CreateElement("Item");
                     Item.InnerText = campos[1];
                     Refeicao.AppendChild(Item);
@@ -215,13 +211,12 @@ namespace WcfService3
                     Refeicao.AppendChild(Calorias);
                     Refeicoes.AppendChild(Refeicao);
                 }
-                */
+                
                 xmldoc.AppendChild(Refeicoes);
 
                 xmldoc.Save(Path.ChangeExtension("\\App_Data\\calorias_restaurantes_1XML", ".xml"));
                 return refeicaos;
             }
-        }
-
+        }*/
     }
 }
