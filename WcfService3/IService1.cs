@@ -19,6 +19,12 @@ namespace WcfService3
         [Description("Gets all the Refeicoes.")]
         List<Refeicao> GetRefeicoes();
 
+        // ADD Refeicao
+        [OperationContract]
+        [WebInvoke(Method = "POST", UriTemplate = "/AddRefeicao")]
+        [Description("Adds a Refeicao to Refeicoes.")]
+        void AddRefeicao(Refeicao refeicao);
+
         /*[OperationContract]
         [WebInvoke(Method = "POST", UriTemplate = "/Refeicoes")]
         [Description("Post a Refeicao in Refeicoes.")]

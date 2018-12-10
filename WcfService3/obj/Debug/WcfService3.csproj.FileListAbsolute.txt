@@ -12,3 +12,4 @@ C:\Users\Moreira\source\repos\NewRepo\WcfService3\obj\Debug\WcfService3.csprojAs
 C:\Users\Moreira\source\repos\NewRepo\WcfService3\obj\Debug\WcfService3.csproj.CoreCompileInputs.cache
 C:\Users\Moreira\source\repos\NewRepo\WcfService3\obj\Debug\WcfService3.dll
 C:\Users\Moreira\source\repos\NewRepo\WcfService3\obj\Debug\WcfService3.pdb
+C:\Users\Moreira\source\repos\NewRepo\WcfService3\bin\App_Data\refeicoes1.xml

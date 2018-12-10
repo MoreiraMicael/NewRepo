@@ -111,6 +111,28 @@ namespace WcfService3
             return refeicoes;
         }
 
+        public void AddRefeicao(Refeicao refeicao)
+        {
+            XmlDocument doc = new XmlDocument();
+            doc.Load(FILEPATH);
+            XmlNode refeicoesNode = doc.SelectSingleNode("/Refeicoes");
+            XmlElement refeicaoNode = doc.CreateElement("Refeicao");
+            XmlElement restauranteNode = doc.CreateElement("Restaurante");
+            restauranteNode.InnerText = refeicao.Restaurante;
+            refeicaoNode.AppendChild(restauranteNode);
+            XmlElement itemNode = doc.CreateElement("Item");
+            itemNode.InnerText = refeicao.Item;
+            refeicaoNode.AppendChild(itemNode);
+            XmlElement quantidadeNode = doc.CreateElement("Quantidade");
+            quantidadeNode.InnerText = refeicao.Quantidade;
+            refeicaoNode.AppendChild(quantidadeNode);
+            XmlElement caloriasNode = doc.CreateElement("Calorias");
+            caloriasNode.InnerText = refeicao.Calorias;
+            refeicaoNode.AppendChild(caloriasNode);
+            refeicoesNode.AppendChild(refeicaoNode);
+            doc.Save(FILEPATH);
+        }
+
         /*public List<Refeicao> PostRefeicoes()
         {
             {

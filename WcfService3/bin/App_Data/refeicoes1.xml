@@ -323,10 +323,4 @@
     <Quantidade>100g</Quantidade>
     <Calorias>225 kcal</Calorias>
   </Refeicao>
-  <Refeicao>
-    <Restaurante>Mac</Restaurante>
-    <Item>Batatas Fritas Com Nuttela</Item>
-    <Quantidade>2</Quantidade>
-    <Calorias>1000</Calorias>
-  </Refeicao>
 </Refeicoes>
