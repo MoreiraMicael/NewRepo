@@ -20,14 +20,18 @@ namespace WcfService3
         List<Refeicao> GetRefeicoes();
 
         /*[OperationContract]
-        [WebInvoke(Method = "GET", UriTemplate = "/Refeicoes")]
+        [WebInvoke(Method = "POST", UriTemplate = "/Refeicoes")]
         [Description("Post a Refeicao in Refeicoes.")]
         List<Refeicao> PostRefeicoes();*/
 
         [OperationContract]
+        [WebInvoke(Method = "GET", UriTemplate = "/PesoIdeal?genero={genero}&altura={altura}")]
+        [Description("Gets Peso Ideal.")]
         double CalculadoraPesoIdeal(string genero, int altura);
 
         [OperationContract]
+        [WebInvoke(Method = "GET", UriTemplate = "/Calorias?idade={idade}&genero={genero}&altura={altura}&peso={peso}&actividade={actividade}")]
+        [Description("Gets Calorias.")]
         List<Calorias> CalculadoraCalorias(int idade, string genero, double altura, double peso, string actividade);
     }
 
