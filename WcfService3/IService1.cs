@@ -23,7 +23,8 @@ namespace WcfService3
         [OperationContract]
         [WebInvoke(Method = "POST", UriTemplate = "/AddRefeicao")]
         [Description("Adds a Refeicao to Refeicoes.")]
-        void AddRefeicao(Refeicao refeicao);
+        void AddRefeicao(Refeicao refeicao);
+
 
         /*[OperationContract]
         [WebInvoke(Method = "POST", UriTemplate = "/Refeicoes")]

@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
-using System.Text;
 using System.Web.Hosting;
 using System.Xml;
 
@@ -51,7 +49,6 @@ namespace WcfService3
                 actividadeValor = 1.9;
             }
 
-            
             double caloriasTotal = ((caloriasBase * actividadeValor));
             //return caloriasTotal;
             double menosMeio = (caloriasTotal - 500);
@@ -63,7 +60,6 @@ namespace WcfService3
             calorias.Add(new Calorias() { caloriasTotal = caloriasTotal, menosMeio = menosMeio, menosUm = menosUm, maisMeio = maisMeio, maisUm = maisUm });
 
             return calorias;
-           
         }
 
         public double CalculadoraPesoIdeal(string genero, int altura)
@@ -109,6 +105,8 @@ namespace WcfService3
                 refeicoes.Add(refeicao);
             }
             return refeicoes;
+
+            
         }
 
         public void AddRefeicao(Refeicao refeicao)
@@ -131,7 +129,7 @@ namespace WcfService3
             refeicaoNode.AppendChild(caloriasNode);
             refeicoesNode.AppendChild(refeicaoNode);
             doc.Save(FILEPATH);
-        }
+        }
 
         /*public List<Refeicao> PostRefeicoes()
         {
@@ -233,7 +231,7 @@ namespace WcfService3
                     Refeicao.AppendChild(Calorias);
                     Refeicoes.AppendChild(Refeicao);
                 }
-                
+
                 xmldoc.AppendChild(Refeicoes);
 
                 xmldoc.Save(Path.ChangeExtension("\\App_Data\\calorias_restaurantes_1XML", ".xml"));
